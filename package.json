@@ -1,0 +1,30 @@
+{
+  "name": "init-me-seed-node",
+  "version": "0.1.0",
+  "description": "init-me seed init-me-seed-node",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest ./test"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "keywords": [
+    "init-me",
+    "seed",
+    "init-me-seed-node"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "7.0.0",
+    "yyl-print": "0.7.3",
+    "yyl-os": "0.10.0",
+    "yyl-replacer": "0.2.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "yyl-fs": "0.3.2",
+    "yyl-util": "2.3.5"
+  }
+}
