@@ -16,8 +16,8 @@ const lang = {
   FORMAT_FILE_START: '正在格式化文件',
   FORMAT_FILE_FINISHED: '格式化文件 完成',
 
-  NPM_INSTALL_START: '正在安装依赖',
-  NPM_INSTALL_FINISHED: '安装依赖 完成'
+  INSTALL_START: '正在安装依赖',
+  INSTALL_FINISHED: '安装依赖 完成'
 }
 
 let initData = {
@@ -121,15 +121,14 @@ const config = {
      * afterCopy({fileMap, targetPath, env })
      */
     async afterCopy({targetPath, env}) {
-      if (env.silent) {
-        print.log.setLogLevel(0)
-      }
+      const installPath = [
+        path.join(targetPath)
+      ]
+      await extOs.runSpawn('yarn init', installPath[0])
 
-      if (!initData.pkgExists) {
-        if (!env || !env.noinstall) {
-          await extOs.runSpawn('npm init', targetPath)
-        }
-      }
+      print.log.info(lang.INSTALL_START)
+      await extOs.runCMD('yarn install', installPath[0])
+      print.log.success(lang.INSTALL_FINISHED)
     }
   }
 }
