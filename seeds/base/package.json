@@ -29,7 +29,7 @@
     "trailingComma": "none"
   },
   "scripts": {
-    "bootstarp": "yarn install & npm run prettier",
+    "bootstarp": "yarn init & yarn install & npm run prettier",
     "eslint": "eslint ./",
     "eslint:fix": "eslint ./ --fix",
     "prettier": "prettier --write ./**/*.js",
