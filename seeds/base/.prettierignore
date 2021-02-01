@@ -3,3 +3,6 @@ test/case/
 ui-test/
 test/__frag/
 test/__gitcase/
+*.log
+.DS_Store
+**/.DS_Store
