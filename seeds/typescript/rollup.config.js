@@ -18,7 +18,7 @@ function buildBanner(type) {
 const config = {
   input: './src/index.ts',
   output: [],
-  plugins: [nodeResolve({ jsnext: true }), commonjs(), json(), typescript(), external()],
+  plugins: [external(), nodeResolve({ jsnext: true }), commonjs(), json(), typescript()],
   external: []
 }
 
