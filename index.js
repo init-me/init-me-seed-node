@@ -3,14 +3,12 @@ const path = require('path')
 const fs = require('fs')
 const extOs = require('yyl-os')
 const print = require('yyl-print')
+const chalk = require('chalk')
 
 const lang = {
   QUEATION_SELECT_TYPE: '请选择构建方式',
   TYPE_ERROR: 'env.type 不存在',
-  INSTALL_START: '正在安装依赖',
-  INSTALL_FINISHED: '安装依赖完成',
-  INSTALL_TEST_START: '正在安装测试部分依赖',
-  INSTALL_TEST_FINISHED: '安装测试部分依赖完成'
+  FINISHED: `初始化完成，请执行: ${chalk.yellow('yarn bootstarp')}`
 }
 
 const SEED_PATH = path.join(__dirname, 'seeds')
@@ -62,17 +60,7 @@ const config = {
         path.join(targetPath),
         path.join(targetPath, 'test/case/base')
       ]
-      await extOs.runSpawn('yarn init', installPath[0])
-
-      print.log.info(lang.INSTALL_START)
-      await extOs.runCMD('yarn install', installPath[0])
-      print.log.success(lang.INSTALL_FINISHED)
-
-      if (fs.existsSync(installPath[1])) {
-        print.log.info(lang.INSTALL_TEST_START)
-        await extOs.runCMD('yarn install', installPath[1])
-        print.log.info(lang.INSTALL_TEST_FINISHED)
-      }
+      print.log.success(lang.FINISHED)
     }
   },
   path: './seeds'
