@@ -23,3 +23,5 @@ package-lock.json
 **/__frag/*
 .log
 **/*.log
+.DS_Store
+**/.DS_Store
