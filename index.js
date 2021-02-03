@@ -57,6 +57,7 @@ const config = {
     },
     async afterCopy ({ targetPath }) {
       await extOs.runSpawn('yarn init', path.join(targetPath))
+      print.log.success(lang.FINISHED)
     }
   },
   path: './seeds'
