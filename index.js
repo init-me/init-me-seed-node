@@ -56,11 +56,7 @@ const config = {
       return Promise.resolve(fileMap)
     },
     async afterCopy ({ targetPath }) {
-      const installPath = [
-        path.join(targetPath),
-        path.join(targetPath, 'test/case/base')
-      ]
-      print.log.success(lang.FINISHED)
+      await extOs.runSpawn('yarn init', path.join(targetPath))
     }
   },
   path: './seeds'
