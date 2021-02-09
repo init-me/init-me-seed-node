@@ -32,9 +32,9 @@
     "d": "rollup --config ./rollup.config.js",
     "build": "cross-env NODE_ENV=production rollup --config ./rollup.config.js",
     "w": "rollup --watch --config ./rollup.config.js",
-    "prepublishOnly": "npm run prettier & npm run build & npm test & npm run doc",
+    "prepublishOnly": "npm run prettier & npm test & npm run doc",
     "doc": "typedoc src/index.ts --plugin typedoc-plugin-markdown",
-    "test": "jest ./test/jest/"
+    "test": "npm run build & jest ./test/jest/"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.1.0",
