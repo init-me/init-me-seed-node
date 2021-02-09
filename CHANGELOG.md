@@ -1,5 +1,7 @@
 # 版本信息
 
+## 0.3.9 (2021-02-09)
+* feat: `bootstarp` -> `bootstrap`
 ## 0.3.8 (2021-02-04)
 * feat: 调整`typescript` 构建内容, 加入 typedoc 组件
 ## 0.3.7 (2021-02-03)

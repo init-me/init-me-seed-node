@@ -17,7 +17,7 @@ package-lock.json
 **/*.bmp
 **/*.jpeg
 **/*.gif
-**/*.pug**/*
+**/*.pug
 **/*.sh
 **/*.conf
 **/__frag/*
