@@ -8,7 +8,7 @@ const chalk = require('chalk')
 const lang = {
   QUEATION_SELECT_TYPE: '请选择构建方式',
   TYPE_ERROR: 'env.type 不存在',
-  FINISHED: `初始化完成，请执行: ${chalk.yellow('yarn bootstarp')}`
+  FINISHED: `初始化完成，请执行: ${chalk.yellow('yarn bootstrap')}`
 }
 
 const SEED_PATH = path.join(__dirname, 'seeds')
