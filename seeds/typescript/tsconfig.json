@@ -7,10 +7,10 @@
     "jsx": "react",
     "esModuleInterop": true,
     "lib": ["dom", "es2015", "scripthost"],
-    "outDir": "output",
-    "declarationDir": ".",
+    "outDir": "./output",
+    "declarationDir": "./output",
     "declaration": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "typing/**/*"],
   "exclude": ["output"]
 }

@@ -1,4 +1,7 @@
 # 版本信息
+## 0.6.0 (2022-01-27)
+* feat: `typescript` 内容改造，使用 tsc 进行构建 ts 文件
+* del: `typescript` 改造，放弃 rollup 构建项目，改用 tsc
 ## 0.5.0 (2022-01-24)
 * feat: 更新 `typescript` seed 内容： 更新 `rollup@2.66.0`
 * feat: 更新 `typescript` seed 内容： 更新 `@rollup/plugin-commmonjs@21.0.1`
