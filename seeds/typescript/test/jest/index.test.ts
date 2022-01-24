@@ -1,5 +1,4 @@
-const { TestScheduler } = require("jest");
-const {} = require('../../')
+import {} from '../../src/index'
 
 test('usage test', () => {
   expect(1).toEqual(1)

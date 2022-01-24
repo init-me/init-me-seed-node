@@ -1,4 +1,6 @@
 # 版本信息
+## 0.6.1 (2022-01-27)
+* feat: `typescript` 中 jest 添加 `ts-jest` 测试逻辑
 ## 0.6.0 (2022-01-27)
 * feat: `typescript` 内容改造，使用 tsc 进行构建 ts 文件
 * del: `typescript` 改造，放弃 rollup 构建项目，改用 tsc
