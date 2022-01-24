@@ -1,5 +1,5 @@
 import pkg from './package.json'
-import typescript from 'rollup-plugin-typescript2'
+import typescript from '@rollup/plugin-typescript'
 import commonjs from '@rollup/plugin-commonjs'
 import nodeResolve from '@rollup/plugin-node-resolve'
 import external from 'rollup-plugin-node-externals'
@@ -26,7 +26,8 @@ const config = {
     commonjs(),
     json(),
     typescript({
-      typescript: require('typescript')
+      typescript: require('typescript'),
+      tsconfig: './tsconfig.json'
     })
   ],
   external: []

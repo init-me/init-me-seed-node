@@ -1,4 +1,18 @@
 # 版本信息
+## 0.5.0 (2022-01-24)
+* feat: 更新 `typescript` seed 内容： 更新 `rollup@2.66.0`
+* feat: 更新 `typescript` seed 内容： 更新 `@rollup/plugin-commmonjs@21.0.1`
+* feat: 更新 `typescript` seed 内容： 更新 `@rollup/plugin-json@4.1.0`
+* feat: 更新 `typescript` seed 内容： 更新 `@rollup/plugin-node-resolve@13.1.3`
+* feat: 更新 `typescript` seed 内容： 更新 `@rollup/plugin-typescript@8.3.0`
+* feat: 更新 `typescript` seed 内容： 更新 `cross-env@7.0.3`
+* feat: 更新 `typescript` seed 内容： 更新 `eslint@8.7.0`
+* feat: 更新 `typescript` seed 内容： 更新 `eslint-config-yyl-react@2.0.0`
+* feat: 更新 `typescript` seed 内容： 更新 `jest@27.4.7`
+* feat: 更新 `typescript` seed 内容： 更新 `prettier@2.5.1`
+* feat: 更新 `typescript` seed 内容： 更新 `rollup-plugin-node-externals@3.1.2`
+* feat: 更新 `typescript` seed 内容： 更新 `typescript@4.5.5`
+* feat: 更新 `tsconfig.json` 内容
 
 ## 0.4.0 (2021-05-08)
 
