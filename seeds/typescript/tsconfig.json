@@ -2,10 +2,11 @@
   "compilerOptions": {
     "moduleResolution": "node",
     "target": "ES6",
-    "module": "ES6",
+    "module": "CommonJS",
     "strict": true,
     "jsx": "react",
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "lib": ["dom", "es2015", "scripthost"],
     "outDir": "./output",
     "declarationDir": "./output",
