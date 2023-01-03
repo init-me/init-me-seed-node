@@ -2,6 +2,10 @@
   "version": "0.1.0",
   "main": "output/index.js",
   "types": "output/index.d.ts",
+  "maintainers": [{
+    "name": "jackness1208",
+    "email": "jackness1208@qq.com"
+  }],
   "eslintConfig": {
     "env": {
       "jest": true
