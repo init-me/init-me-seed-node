@@ -1,6 +1,6 @@
 {
   "name": "init-me-seed-node",
-  "version": "0.6.1",
+  "version": "0.6.3",
   "description": "init-me seed init-me-seed-node",
   "main": "index.js",
   "types": "index.d.ts",
