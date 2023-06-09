@@ -1,0 +1,18 @@
+{
+  "plugin": ["typedoc-plugin-markdown", "typedoc-plugin-merge-modules"],
+  "cleanOutputDir": true,
+  "entryPoints": ["src/index.ts"],
+  "entryDocument": "index.md",
+  "excludeReferences": true,
+  "preserveAnchorCasing": true,
+  "hideBreadcrumbs": true,
+  "hideInPageTOC": true,
+  "hidePageTitle": true,
+  "out": "docs",
+  "readme": "./GettingStarted.md",
+  "includeVersion": false,
+  "disableSources": true,
+  "excludeExternals": true,
+  "skipErrorChecking": true,
+  "logLevel": "Error"
+}

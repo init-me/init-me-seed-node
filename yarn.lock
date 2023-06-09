@@ -3523,10 +3523,10 @@ yyl-print@0.7.3:
   dependencies:
     chalk "^2.4.2"
 
-yyl-replacer@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/yyl-replacer/-/yyl-replacer-0.2.1.tgz#55759700455e64453e0f108bf9fc1ee4e8d2cc50"
-  integrity sha512-JzpYjipP/ZlFoKKFoya3XEjqDLg0DVoA9/DAnd/78VRQ7fVBa7qWldwlzflC9cZMDPHp5/mvFkY6yOEnMpAHJg==
+yyl-replacer@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/yyl-replacer/-/yyl-replacer-0.3.1.tgz#194d0366e0ce4913984cc3c4a26b0b0d00ac15f4"
+  integrity sha512-QPnQoIIE+E7TMW52LAi3lOq2dLbbrTnZFjcqqYpL+lKtOGdcZYh9ogwsUXJMcfQJ129uiBF3ymHudlY41bbGkQ==
 
 yyl-util@2.3.5:
   version "2.3.5"
